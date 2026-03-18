@@ -2,6 +2,11 @@
 
 ## API - учим модель общаться с внешним миром
 
+### Клонируем репозиторий
+```
+git clone https://github.com/NickOsipov/otus-api.git
+```
+
 ### Dev-окружение
 ```
 uv sync

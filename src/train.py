@@ -140,8 +140,9 @@ def main() -> None:
     model = train_model(train)
 
     logger.info("Saving model")
-    os.makedirs("models", exist_ok=True)
-    model_path = os.path.join("models", "model.joblib")
+    models_dir = "models"
+    os.makedirs(models_dir, exist_ok=True)
+    model_path = os.path.join(models_dir, "model.joblib")
     save_model(model, model_path)
 
     logger.info("Evaluating model")
