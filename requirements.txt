@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+pandas
+scikit-learn
+loguru
+requests
+pytest
+pytest-cov
+httpx
+black
+isort
